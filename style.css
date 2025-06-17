@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #222222;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+nav {
+    margin-left: 67%;
+    margin-top: 22px;
+    padding-top: 7px;
+}
+
+h4 {
+    display: inline;
+    margin: 5px;
+    padding: 6px;
+}
+
+h1 {
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.mid1 {
+    background: rgb(78, 205, 196);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.head2 {
+    margin-bottom: 8px;
+    padding: 0px;
+}
+
+button {
+    background-color: #ff6B6B;
+    height: 35px;
+    width: 78px;
+    border-radius: 2px;
+    color: white;
+    padding: 3px;
+    border-color: #ff6B6B;
+    margin-top: 15px;
+}
+
+.mid2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.mm {
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 80px;
+    position: sticky;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+p {
+    margin-bottom: 3px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.mn {
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 80px;
+    position: sticky;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    transition: transform 0.1s ease;
+}
+
+.mn:hover,
+.mm:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.end1 {
+    background-color: #f1f1f1;
+    height: 156.6px;
+    margin-top: 38px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+input {
+    background-color: white;
+    border-style: solid;
+    width: 170px;
+    height: 30px;
+    border-color: #b3b2b2;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.b2 {
+    width: 100px;
+    border-color: #ff6B6B;
+    border-style: none;
+    margin-top: 5px;
+}
+
+.hh1 {
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.ee {
+    margin: 0px;
+    color: white;
+}
+
+.end2 {
+    margin: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
